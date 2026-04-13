@@ -1,0 +1,14 @@
+{
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": false,
+    "coworkWebSearchEnabled": true,
+    "sidebarMode": "chat"
+  },
+  "mcpServers": {
+    "file-writer": {
+      "command": "python",
+      "args": ["D:/Code Files/Claude-Skills/server.py"]
+    }
+  }
+}
