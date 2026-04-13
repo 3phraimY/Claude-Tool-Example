@@ -1,6 +1,7 @@
-#Connecting MCP to Claude Desktop Tutorial
+# Connecting MCP to Claude Desktop Tutorial
 
-##1. Creating Local MCP Server
+## 1. Creating Local MCP Server
+
 server.py:
 
 ```
@@ -47,7 +48,8 @@ def write_text_file(filename: str, content: str):
 
 Claude can choose when it seems necessary to use this tool based on the name and description provide. We will also further define its use in the skill section.
 
-##2. Add Local MCP Server to Claude
+## 2. Add Local MCP Server to Claude
+
 Navigate to `File>Settings>Developer` select `Edit Config` and open the `claude_desktop_config.json` file in a text editor. We will add an `mcpServers` section to this config file:
 
 ```
@@ -71,7 +73,8 @@ Now restart Claude to apply the latest config (may have to kill via task manager
 <br><br>
 You have successfully added a `tool` to Claude. It can now use this tool at its discretion.
 
-##3. Add Skill to Claude
+## 3. Add Skill to Claude
+
 Rather than relying solely on Claude figuring out when to use this skill, we can more explicitly define its use of a tool.
 <br><br>
 SKILL.md:
